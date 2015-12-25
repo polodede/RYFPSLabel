@@ -1,0 +1,6 @@
+framework module Pods_RYFPSLabel_Tests {
+  umbrella header "Pods-RYFPSLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+PODS:
+  - RYFPSLabel (0.1.0)
+
+DEPENDENCIES:
+  - RYFPSLabel (from `../`)
+
+EXTERNAL SOURCES:
+  RYFPSLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RYFPSLabel: 2318ad9a18bb163737ac47ad7814bee34a8d3cd9
+
+COCOAPODS: 0.39.0

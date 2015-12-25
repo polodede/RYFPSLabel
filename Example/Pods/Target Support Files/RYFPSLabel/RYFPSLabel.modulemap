@@ -1,0 +1,6 @@
+framework module RYFPSLabel {
+  umbrella header "RYFPSLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

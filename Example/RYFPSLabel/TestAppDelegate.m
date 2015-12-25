@@ -7,12 +7,24 @@
 //
 
 #import "TestAppDelegate.h"
+#import "TestViewController.h"
+
+#import <RYFPSLabel/RYFPSLabel.h>
 
 @implementation TestAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    TestViewController *rootView = [[TestViewController alloc] init];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = rootView;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    [RYFPSLabel install];
+    
     return YES;
 }
 
