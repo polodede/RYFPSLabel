@@ -16,14 +16,13 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "用于显示当前页面fps的Pod库"
 
   s.homepage         = "https://github.com/polodede/RYFPSLabel"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ryan" => "409266255@qq.com" }
-  s.source           = { :git => "https://github.com/polodede/RYFPSLabel.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/polodede/RYFPSLabel.git", :tag => "0.1" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
