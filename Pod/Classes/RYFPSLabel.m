@@ -20,12 +20,6 @@
 
 @implementation RYFPSLabel
 
-+ (void)install{
-    RYFPSLabel *fpsLabel = [RYFPSLabel sharedInstance];
-    [[UIApplication sharedApplication].keyWindow addSubview:fpsLabel];
-    
-}
-
 + (instancetype)sharedInstance{
     static RYFPSLabel *instance;
     static dispatch_once_t onceToken;
@@ -59,6 +53,14 @@
     return self;
 }
 
+#pragma mark - Public Method
++ (void)install{
+    RYFPSLabel *fpsLabel = [RYFPSLabel sharedInstance];
+    [[UIApplication sharedApplication].keyWindow addSubview:fpsLabel];
+    
+}
+
+#pragma mark - Private Method
 - (void)calFPS:(CADisplayLink *)link{
     if (_lastTimeStamp == 0) {
         _lastTimeStamp = link.timestamp;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RYFPSLabel"
-  s.version          = "0.1"
+  s.version          = "0.1.1"
   s.summary          = "用于显示当前页面fps"
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ryan" => "409266255@qq.com" }
-  s.source           = { :git => "https://github.com/polodede/RYFPSLabel.git", :tag => "0.1" }
+  s.source           = { :git => "https://github.com/polodede/RYFPSLabel.git", :tag => "0.1.1" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
